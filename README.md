@@ -25,3 +25,4 @@ All of this should be presented with an ergonomic design that aligns with the co
 
 Participants of this project :
 BixTheOne = Antoine PERICHON 250AEB053
+NotKimochi : Julien ZHANG 250AEB054
