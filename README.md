@@ -1,28 +1,28 @@
 # DIP392-CALYNDJ
 
-Email from the client :
+## Email du client
 
-###########################################################################################################################
-Hello,
+---
 
-As part of your project, I would like you to handle the design of my IT consulting firm’s website.
+Bonjour,
 
-Company name: SARL Lem-Coudtech
-Head office: 9 Rue Stendhal, Paris 75020
-Business activity: IT consulting and training
+Dans le cadre de votre projet, je souhaite que vous preniez en charge la conception du site web de mon cabinet de conseil en informatique.
 
-Details of the assignment:
+**Nom de l'entreprise** : SARL Lem-Coudtech  
+**Siège social** : 9 Rue Stendhal, Paris 75020  
+**Activité** : Conseil en informatique et formation
 
-Propose a professional website design that highlights the two main activities of the company (consulting and training).
-Specify that the company specializes in Microsoft cloud technology.
-The website should allow me to publish:
+### Détails de la mission
 
-The list of training courses I offer, along with their descriptions
-The projects I have worked on
-Video presentations for technology monitoring
-All of this should be presented with an ergonomic design that aligns with the content.
-###########################################################################################################################
+- Proposer un design de site web professionnel qui met en avant les deux activités principales de l'entreprise (conseil et formation).
+- Préciser que l'entreprise se spécialise dans les technologies cloud de Microsoft.
+- Le site web devra permettre la publication :
+  - De la liste des formations proposées, avec leur descriptif.
+  - Des projets réalisés.
+  - De vidéos de présentation pour le suivi technologique.
+- L'ensemble de ces éléments devra être présenté avec un design ergonomique en adéquation avec le contenu.
 
-Participants of this project :
-BixTheOne = Antoine PERICHON 250AEB053
-NotKimochi : Julien ZHANG 250AEB054
+### Participants au projet
+
+- **BixTheOne** = Antoine PERICHON (250AEB053)
+- **NotKimochi** : Julien ZHANG 250AEB054
