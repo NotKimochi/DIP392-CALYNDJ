@@ -1,26 +1,26 @@
 # DIP392-CALYNDJ
 
-## Email du client
+## Client's email
 
 ---
 
-Bonjour,
+Hello,
 
-Dans le cadre de votre projet, je souhaite que vous preniez en charge la conception du site web de mon cabinet de conseil en informatique.
+As part of your project, I would like you to take charge of designing the website for my IT consulting firm.
 
-**Nom de l'entreprise** : SARL Lem-Coudtech  
-**Siège social** : 9 Rue Stendhal, Paris 75020  
-**Activité** : Conseil en informatique et formation
+**Company Name**: SARL Lem-Coudtech  
+**Head Office**: 9 Rue Stendhal, Paris 75020  
+**Business Activity**: IT consulting and training
 
-### Détails de la mission
+### Mission Details
 
-- Proposer un design de site web professionnel qui met en avant les deux activités principales de l'entreprise (conseil et formation).
-- Préciser que l'entreprise se spécialise dans les technologies cloud de Microsoft.
-- Le site web devra permettre la publication :
-  - De la liste des formations proposées, avec leur descriptif.
-  - Des projets réalisés.
-  - De vidéos de présentation pour le suivi technologique.
-- L'ensemble de ces éléments devra être présenté avec un design ergonomique en adéquation avec le contenu.
+- Propose a professional website design that highlights the two main activities of the company (consulting and training).
+- Specify that the company specializes in Microsoft's cloud technologies.
+- The website should allow the publication:
+  - Of the list of training courses offered, with their descriptions.
+  - Of completed projects.
+  - Of presentation videos for technology monitoring.
+- All of these elements should be presented with an ergonomic design that matches the content.
 
 ### Participants au projet
 
