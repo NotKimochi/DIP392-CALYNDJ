@@ -24,5 +24,5 @@ Dans le cadre de votre projet, je souhaite que vous preniez en charge la concept
 
 ### Participants au projet
 
-- **BixTheOne** = Antoine PERICHON (250AEB053)
-- **NotKimochi** : Julien ZHANG 250AEB054
+- **BixTheOne** : Antoine PERICHON (250AEB053)
+- **NotKimochi** : Julien ZHANG (250AEB054)
