@@ -26,3 +26,5 @@ Dans le cadre de votre projet, je souhaite que vous preniez en charge la concept
 
 - **BixTheOne** : Antoine PERICHON (250AEB053)
 - **NotKimochi** : Julien ZHANG (250AEB054)
+- **NameLess0974** : Cristian URSAN : (250AEB049)
+
