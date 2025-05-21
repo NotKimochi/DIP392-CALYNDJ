@@ -22,7 +22,7 @@ As part of your project, I would like you to take charge of designing the websit
   - Of presentation videos for technology monitoring.
 - All of these elements should be presented with an ergonomic design that matches the content.
 
-### Participants au projet
+### Project Participants
 
 - **BixTheOne** : Antoine PERICHON (250AEB053)
 - **NotKimochi** : Julien ZHANG (250AEB054)
