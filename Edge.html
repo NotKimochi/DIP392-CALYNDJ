@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lem-Cloudtech | Formation & Conseil Cloud</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="active.js" defer></script>
+</head>
+<body>
+    <!-- En-tête unifié -->
+    <header>
+        <div class="container">
+            <h1>Lem-Cloudtech</h1>
+            <h2>Formation & Conseil</h2>
+            <h4>Notre expertise au service des talents</h4>
+        </div>
+    </header>
+
+    <!-- Navigation principale -->
+    <nav class="main-menu">
+        <a href="Edge.html">Accueil</a>
+        <a href="mention légale.html">Mentions Légales</a>
+        <a href="politique.html">Politique de confidentialité</a>
+    </nav>
+
+    <!-- Bannière hero spécifique à l'accueil -->
+    <div class="home-hero">
+        <div class="container">
+            <h1>ACCUEIL</h1>
+        </div>
+        <div class="cloud-animation"></div>
+    </div>
+
+    <!-- Contenu principal -->
+    <main class="legal-container">
+        <section class="services">
+            <h2 class="titre">SERVICES</h2>
+            <div class="service-card">
+                <h2>Conseil Sur Office 365 et Azure :</h2>
+                <li>Architecture</li>
+                <li>Administration</li>
+                <li>Sécurité</li>
+                <li>Messagerie</li>
+            </div>
+
+            <div class="service-card">
+                <h2>Formation</h2>
+                <li>Microsoft 365 Gestion des identités et des services</li>
+                <li>Microsoft 365 administration de la sécurité</li>
+                <li>Administration de l'accès et des identités Microsoft</li>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>PROJETS</h2>
+            <p class="subtitle">Quelques exemples de missions de conseil réalisées :</p>
+            
+            <div class="project-accordion">
+                <!-- Premier projet -->
+                <div class="project-item">
+                    <button class="project-title">
+                        Gestion et mise à niveau de l'infrastructure Azure Active Directory / Office 365
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="project-content">
+                        <li>Mise en œuvre d'un pilote de bascule ADFS / PHS</li>
+                        <li>Mise en œuvre des fonctionnalités de sécurité AZURE (PIM, SSPR, password write-back, MFA V2...)</li>
+                        <li>Création de scripts PowerShell pour automatiser la gestion des ressources Office 365</li>
+                        <li>Rédaction des procédures, DAT, guide d'administration ou d'exploitation</li>
+                    </div>
+                </div>
+                
+                <!-- Deuxième projet -->
+                <div class="project-item">
+                    <button class="project-title">
+                        Architecture Azure
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="project-content">
+                        <li>Mise en place d'une solution d'archivage Sharepoint / OneDrive</li>
+                        <li>Migration des applications dans le cloud</li>
+                        <li>Publication d'applications avec Azure Application Proxy</li>
+                    </div>
+                </div>
+                
+                <!-- Troisième projet -->
+                <div class="project-item">
+                    <button class="project-title">
+                        Gestion de la messagerie Office 365
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="project-content">
+                        <li>Administration d'un Tenant de plus de 30 000 utilisateurs</li>
+                        <li>Création de scripts PowerShell pour automatiser la gestion des ressources Office 365</li>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="vidéos">
+            <h2>VIDÉOS DE PRÉSENTATION POUR LA VEILLE TECHNOLOGIQUE</h2>
+            <div class="zone-video">
+                <p>Aucune vidéo ajoutée pour le moment.</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>CONTACT</h2>
+            <div class="contact-info">
+                <p>Téléphone : +33 6 70 11 12 43</p>
+                <p>Email : <a href="mailto:franck.mapelli@outlook.com">franck.mapelli@outlook.com</a></p>
+                <p>Adresse : 9 rue Stendhal 75020, PARIS</p>
+            </div>
+
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nom*</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message*</label>
+                    <textarea id="message" name="message" rows="10" cols="50" maxlength="1000" required></textarea>
+                    <small id="messageCounter">1000 caractères restants</small>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">J'accepte que ces données soient stockées et traitées dans le but d'établir un contact. Je suis conscient que je peux révoquer mon consentement à tout moment.*</label>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+            <p class="form-note">*indique les champs obligatoires à remplir</p>
+        </section>
+
+        <!-- Pied de page -->
+        <div class="legal-footer">
+            <p><strong><a href="Edge.html">Accueil</a></strong> · <strong><a href="mention légale.html">Mentions Légales</a></strong> · <strong><a href="politique.html">Politique de confidentialité</a></strong></p>
+            <p>Copyright © 2025 Lem-Cloudtech. Tous droits réservés.</p>
+            <p>Dernière mise à jour : 18/05/2025</p>
+        </footer>
+    </main>
+</body>
+</html>
