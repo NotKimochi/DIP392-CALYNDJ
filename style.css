@@ -79,7 +79,7 @@ header h2 {
 
 .home-hero{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('images/cloud_tech.jpg') center/cover no-repeat;
+                url('cloud_tech.jpg') center/cover no-repeat;
     color: white;
     padding: 6.41rem 0;
     text-align: center;
@@ -222,7 +222,7 @@ button[type="submit"]:hover {
 /* Styles spécifiques pour les pages légales */
 .legal-hero {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                url('images/legal-bg.jpg') center/cover no-repeat;
+                url('legal-bg.jpg') center/cover no-repeat;
     color: white;
     padding: 6.41rem 0;
     text-align: center;
@@ -287,7 +287,7 @@ button[type="submit"]:hover {
 
 .politic-hero{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('images/politique.jpg') center/cover no-repeat;
+                url('politique.jpg') center/cover no-repeat;
     color: white;
     padding: 4rem 0;
     text-align: center;
