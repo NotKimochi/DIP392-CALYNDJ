@@ -27,4 +27,5 @@ As part of your project, I would like you to take charge of designing the websit
 - **BixTheOne** : Antoine PERICHON (250AEB053)
 - **NotKimochi** : Julien ZHANG (250AEB054)
 - **NameLess0974** : Cristian URSAN : (250AEB049)
+- **NikosThoumyre** : Nikos THOUMYRE--RIVERO CAMPOY (250AEB031)
 
