@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const messageTextarea = document.getElementById('message');
         const messageCounter = document.getElementById('messageCounter');
         const maxLength = 1000;
-        const minLength = 10; // Longueur minimale pour le message
+        const minLength = 10;
         
         if (messageTextarea && messageCounter) {
             messageCounter.textContent = `${maxLength} caractères restants`;
@@ -27,15 +27,15 @@ document.addEventListener('DOMContentLoaded', function() {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Validation des champs
+            // Récupération des valeurs
             const name = document.getElementById('name').value.trim();
             const email = document.getElementById('email').value.trim();
             const message = document.getElementById('message').value.trim();
             const consent = document.getElementById('consent').checked;
-            
+
             // Validation du nom (max 100 caractères)
             if (!name || name.length > 100) {
-                alert('Le nom doit être renseigné et ne doit pas dépasser 100 caractères.');
+                alert('Le nom doit être renseigné et ne pas dépasser 100 caractères.');
                 return;
             }
             
@@ -56,37 +56,52 @@ document.addEventListener('DOMContentLoaded', function() {
                 alert('Veuillez accepter les conditions.');
                 return;
             }
-            
-            // Ici, vous pourriez ajouter une requête AJAX pour envoyer les données
-            console.log('Formulaire soumis:', { name, email, message });
-            
-            // Feedback utilisateur
-            alert('Merci pour votre message ! Nous vous contacterons sous peu.');
-            contactForm.reset();
-            
-            // Réinitialiser le compteur après envoi
-            if (messageCounter) {
-                messageCounter.textContent = `${maxLength} caractères restants`;
-                messageCounter.style.color = 'inherit';
-            }
+
+            // Envoi AJAX vers le script PHP
+            fetch('send_email.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams({
+                    name: name,
+                    email: email,
+                    message: message
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Message envoyé avec succès à franck.mapelli@outlook.com !');
+                    contactForm.reset();
+                    
+                    // Réinitialiser le compteur
+                    if (messageCounter) {
+                        messageCounter.textContent = `${maxLength} caractères restants`;
+                        messageCounter.style.color = 'inherit';
+                    }
+                } else {
+                    alert('Erreur: ' + (data.error || "Échec de l'envoi."));
+                }
+            })
+            .catch(error => {
+                alert("Erreur réseau : " + error.message);
+            });
         });
     }
 
-    // Gestion des accordéons de projets (version modifiée pour multi-ouverture)
+    // Gestion des accordéons de projets
     const initProjectAccordions = () => {
         const projectItems = document.querySelectorAll('.project-item');
         
         if (projectItems.length === 0) return;
         
-        // Gestion du clic sur les titres
         projectItems.forEach(item => {
             const title = item.querySelector('.project-title');
             
             title.addEventListener('click', () => {
-                // Basculer l'état actif de cet élément seulement
                 item.classList.toggle('active');
                 
-                // Mettre à jour la flèche
                 const arrow = title.querySelector('.arrow');
                 if (arrow) {
                     arrow.style.transform = item.classList.contains('active') ? 'rotate(180deg)' : 'rotate(0)';
@@ -110,7 +125,6 @@ document.addEventListener('DOMContentLoaded', function() {
                         block: 'start'
                     });
                     
-                    // Mise à jour de l'URL sans rechargement
                     if (history.pushState) {
                         history.pushState(null, null, targetId);
                     } else {
@@ -121,8 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     };
 
-
-    // Initialisation des fonctions
+    // Initialisation
     initProjectAccordions();
     animateServicesOnScroll();
     setupSmoothScrolling();
