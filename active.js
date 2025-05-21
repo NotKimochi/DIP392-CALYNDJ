@@ -81,31 +81,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     };
 
-    // Animation des cartes de service au scroll
-    const animateServicesOnScroll = () => {
-        const serviceCards = document.querySelectorAll('.service-card');
-        
-        if (serviceCards.length === 0) return;
-        
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-        
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate');
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, observerOptions);
-        
-        serviceCards.forEach(card => {
-            observer.observe(card);
-        });
-    };
-
     // Navigation fluide
     const setupSmoothScrolling = () => {
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
