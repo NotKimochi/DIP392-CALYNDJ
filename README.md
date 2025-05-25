@@ -24,8 +24,17 @@ As part of your project, I would like you to take charge of designing the websit
 
 ### Project Participants
 
-- **BixTheOne** : Antoine PERICHON (250AEB053)
-- **NotKimochi** : Julien ZHANG (250AEB054)
-- **NameLess0974** : Cristian URSAN : (250AEB049)
-- **NikosThoumyre** : Nikos THOUMYRE--RIVERO CAMPOY (250AEB031)
+- **BixTheOne** : Antoine PERICHON (250AEB053) - worked on Design
+- **NotKimochi** : Julien ZHANG (250AEB054) - worked on Design
+- **NameLess0974** : Cristian URSAN : (250AEB049) - worked on Code
+- Nikos THOUMYRE--RIVERO CAMPOY (250AEB031) - worked on Code
+- Léna MAPELLI (250AEB036) - Contact with the customer
+- Damien LEON (250AEB035) - worked on Documentation & Research
+- Yvantivong UNG (250AEB015) - worked on Documentation & Research
+- Ellios TAGNE CHIBY (250AEBO18) - worked on Code
+- Gianna QUENUM (250AEB020) - worked on Documentation & Research
+
+
+### Link To Video:
+https://1drv.ms/v/c/5b59201aa916d117/EbruYuurJOxKn9Kp6yLtfPMBlgQD-xFNAq0snwaKC1nkcg?e=HkqIVR
 
