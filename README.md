@@ -1,6 +1,6 @@
 # DIP392-CALYNDJ
 
-## Client's email
+## Client's email/Project Summary
 
 ---
 
