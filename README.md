@@ -44,3 +44,6 @@ As part of your project, I would like you to take charge of designing the websit
 
 ## Link To Video Presentation:
 https://1drv.ms/v/c/5b59201aa916d117/EbruYuurJOxKn9Kp6yLtfPMBlgQD-xFNAq0snwaKC1nkcg?e=eYKeWg
+
+## Note
+We didn’t know our Team Number or Section Number, we couldn’t find them, so we used our Team Name.
