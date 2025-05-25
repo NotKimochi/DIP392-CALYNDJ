@@ -22,6 +22,11 @@ As part of your project, I would like you to take charge of designing the websit
   - Of presentation videos for technology monitoring.
 - All of these elements should be presented with an ergonomic design that matches the content.
 
+## How to compile/run the program:
+
+- You need to download the "code" folder, with all the files and the forlder for the images
+- After that simply open one of the three html files, in your favorite browser, to go to the website, or if you want to go directly to the HomePage of the website, open the Edge.html file.
+
 ## Project Participants
 
 - **BixTheOne** : Antoine PERICHON (250AEB053) - worked on Design
@@ -33,6 +38,8 @@ As part of your project, I would like you to take charge of designing the websit
 - Yvantivong UNG (250AEB015) - worked on Documentation & Research
 - Ellios TAGNE CHIBY (250AEBO18) - worked on Code
 - Gianna QUENUM (250AEB020) - worked on Documentation & Research
+
+
 
 
 ## Link To Video:
